@@ -62,9 +62,13 @@ On ne peut pas changer de branch si pas valider
 ####  Vérification de l'alias :
     git remote -v
 
+---
+#### Ajoute dans Github
+    git push 41e jf_entete
 
+---
+## Merge
 
-
-
-
+### Merge la branch avec main : (Fast-Forward)
+    git merge jf_entete
 
