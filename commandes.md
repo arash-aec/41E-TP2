@@ -69,6 +69,6 @@ On ne peut pas changer de branch si pas valider
 ---
 ## Merge
 
-### Merge la branch avec main : (Fast-Forward)
+#### Merge la branch avec main : (Fast-Forward)
     git merge jf_entete
 
