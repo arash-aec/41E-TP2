@@ -56,32 +56,33 @@
     `git checkout 'id commit'`
     `git checkout 'tag'`
 ####  Pour revenir au main :
-    git checkout main
+    `git checkout main`
 
 ---
 ## Les Tag
 
 #### Voir les tag
-    git tag
+    `git tag`
 
 #### Création de tag
-    git tag v1.0.0
+    `git tag v1.0.0`
 
 ---
-## Alias
+## Alias (serveur distant)
 
 ####  Création de l'alias vers Github :
-    git remote add 41e https://github.com/jeromeFosse/41e-exercice.git
-####  Vérification de l'alias :
-    git remote -v
+    `git remote add 41e https://github.com/jeromeFosse/41e-exercice.git`
+####  Voir les listes des alias :
+    `git remote -v`
 
 ---
-#### Ajoute dans Github
-    git push 41e jf_entete
+#### Ajoute dans Github vers une branch 
+    `git push 41e jf_entete`
 
 ---
 ## Merge
 
 #### Merge la branch avec main : (Fast-Forward)
-    git merge jf_entete
+    `git merge jf_entete`
+
 
