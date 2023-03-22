@@ -75,13 +75,14 @@
 `git remote -v`
 
 ---
-#### Ajoute dans Github vers une branch 
+#### Ajout dans Github vers une branch 
 `git push 41e jf_entete`
+#### Récupérer la dernière version
+`git pull 41e main`
 
 ---
 ## Merge
 
 #### Merge la branch avec main : (Fast-Forward)
 `git merge jf_entete`
-
 
