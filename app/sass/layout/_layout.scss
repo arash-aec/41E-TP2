@@ -3,6 +3,11 @@ html {
 }
 
 body,
+html {
+  overflow-x: hidden;
+}
+
+body,
 section,
 h1 {
   margin: 0;
