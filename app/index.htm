@@ -48,44 +48,58 @@
     </section>
     <!-- //////////////////////////////////////  Inscription -->
     <section id="inscription">
-      <h1>Inscription</h1>
+      <h1>Inscrivez-vous à la newsletter !</h1>
+      <h2>Abonnez-vous pour recevoir le dernier contenu par courriel.</h2>
+      <form action="your-server-side-script.php" method="post">
+     
+        <input type="text" id="name" name="name" placeholder="Votre Prenom" size="20" maxlength="50" required>
+      
+        
+        <input type="email" id="email" name="email" placeholder="Votre Courriel" size="20" maxlength="50" required>
+      
+        <button id="btnInscription" type="submit">S'abonner</button>
+      </form>
+      
     </section>
     <!-- //////////////////////////////////////  Galerie -->
     <section id="galerie">
       <h1>Galerie</h1>
     </section>
     <!-- ////////////////////////////////////////  Tableau -->
-    <section id="tableau">
+    <section id="tableau" >
       <h1>Tableau</h1>
       <!-- table>(tr>(td>lorem2)*3)*4 -->
-      <table>
+      <table style="width:100%">
         <tr>
-          <td>Lorem, ipsum.</td>
-          <td>Dolorem, accusantium?</td>
-          <td>Dignissimos, expedita.</td>
+          <th>Prenom</th>
+          <th>Nom</th> 
+          <th>Age</th>
         </tr>
         <tr>
-          <td>Lorem, ipsum.</td>
-          <td>Ullam, autem?</td>
-          <td>Recusandae, suscipit.</td>
+          <td>Jerome</td>
+          <td>Fosse</td>
+          <td>30</td>
         </tr>
         <tr>
-          <td>Lorem, ipsum.</td>
-          <td>Dolorem, repudiandae.</td>
-          <td>Voluptas, architecto!</td>
+          <td>Arash</td>
+          <td>Ashtari</td>
+          <td>40</td>
         </tr>
         <tr>
-          <td>Lorem, ipsum.</td>
-          <td>Similique, at.</td>
-          <td>Enim, neque?</td>
+          <td>Saman</td>
+          <td>Nazari</td>
+          <td>30</td>
         </tr>
       </table>
+      
     </section>
     <!-- ////////////////////////////////////////  video -->
     <section id="video">
       <h1>Video</h1>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/8JJ101D3knE"></iframe>
     </section>
     <!-- ////////////////////////////////////////  Pied de page -->
+    
     <section id="pied-page">
       <h1>Pied de page</h1>
     </section>
