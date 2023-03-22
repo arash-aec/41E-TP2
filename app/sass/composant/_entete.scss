@@ -37,10 +37,15 @@
 #chkBurger:checked ~ .menu {
     transform: translateX(0);
 }
-
+.burger{
+    display: block;
+    @media screen and (min-width: 580px){
+        display: none;
+    }
+}
 .menu {
     position: absolute;
-    top: 2rem;
+    top: 3rem;
     transform: translateX(300px);
     transition: transform .25s ;
     display: flex;
@@ -56,9 +61,6 @@
         padding: 2px 5px;
     }
 }
-
-
-
 
 
 .recherche label{
