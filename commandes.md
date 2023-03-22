@@ -4,21 +4,19 @@
 ## Création d'un dépôt :
 
 ####  Initialisation du dossier git : (dans le dossier)
-Exécuté 2 fois pour supprimer le dépôt.
+*Exécuté 2 fois pour supprimer le dépôt.*
     `git init`
 
 ####  Récupération du dossier sur git :
     git pull https://github.com/eddytuto/41e.git
 
 ---
-
 ## Voir le status :
 
 ####  Voir les fichiers modifié : 
     git status
 
 --- 
-
 ## Historique :
 
 ####  Affichage de l'historique :
@@ -29,16 +27,21 @@ Exécuté 2 fois pour supprimer le dépôt.
 ---
 ## Naviguer dans les branches :
 
-On ne peut pas changer de branch si pas valider
+*On ne peut pas changer de branch si pas valider*
 
 ####  Voir les branch :
     git branch
-####  Création d'une branche :
+####  Création de branche :
     git branch jf_entete
 ####  Changement de branch : 
     git checkout jf_entete
-####  Modification de la branch main :
+####  Création ou Modification de la branch main :
+
+    *change le nom de la branch courante pour main*
+
     git branch -m main
+    git branch -m "nouveau nom"
+    
 
 ---
 ## Les commits
@@ -50,9 +53,19 @@ On ne peut pas changer de branch si pas valider
     git commit -m "c4 création d'un fichier commandes"
 
 ####  Revenir sur un commit :
-    git checkout 'id commit'
+    `git checkout 'id commit'`
+    `git checkout 'tag'`
 ####  Pour revenir au main :
     git checkout main
+
+---
+## Les Tag
+
+#### Voir les tag
+    git tag
+
+#### Création de tag
+    git tag v1.0.0
 
 ---
 ## Alias
