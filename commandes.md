@@ -4,71 +4,84 @@
 ## Création d'un dépôt :
 
 ####  Initialisation du dossier git : (dans le dossier)
-Exécuté 2 fois pour supprimer le dépôt.
-    `git init`
+*Exécuté 2 fois pour supprimer le dépôt.*
+`git init`
 
 ####  Récupération du dossier sur git :
-    git pull https://github.com/eddytuto/41e.git
+`git pull https://github.com/eddytuto/41e.git`
 
 ---
-
 ## Voir le status :
 
 ####  Voir les fichiers modifié : 
-    git status
+`git status`
 
 --- 
-
 ## Historique :
 
 ####  Affichage de l'historique :
-    git log
+`git log`
 ####  Voir les branch et les commits :
-    git log --oneline
+`git log --oneline`
 
 ---
 ## Naviguer dans les branches :
 
-On ne peut pas changer de branch si pas valider
+*On ne peut pas changer de branch si pas valider*
 
 ####  Voir les branch :
-    git branch
-####  Création d'une branche :
-    git branch jf_entete
+`git branch`
+####  Création de branche :
+`git branch jf_entete`
 ####  Changement de branch : 
-    git checkout jf_entete
-####  Modification de la branch main :
-    git branch -m main
+`git checkout jf_entete`
+####  Création ou Modification de la branch main :
+*change le nom de la branch courante pour main*
+
+`git branch -m main`
+`git branch -m "nouveau nom"`
+    
 
 ---
 ## Les commits
 
 #### Ajout des fichiers modifié :
-    git add --all
+`git add --all`
 
 #### Ajout d'un commit :
-    git commit -m "c4 création d'un fichier commandes"
+`git commit -m "c4 création d'un fichier commandes"`
 
 ####  Revenir sur un commit :
-    git checkout 'id commit'
+`git checkout 'id commit'`
+`git checkout 'tag'`
 ####  Pour revenir au main :
-    git checkout main
+`git checkout main`
 
 ---
-## Alias
+## Les Tag
+
+#### Voir les tag
+`git tag`
+
+#### Création de tag
+`git tag v1.0.0`
+
+---
+## Alias (serveur distant)
 
 ####  Création de l'alias vers Github :
-    git remote add 41e https://github.com/jeromeFosse/41e-exercice.git
-####  Vérification de l'alias :
-    git remote -v
+`git remote add 41e https://github.com/jeromeFosse/41e-exercice.git`
+####  Voir les listes des alias :
+`git remote -v`
 
 ---
-#### Ajoute dans Github
-    git push 41e jf_entete
+#### Ajoute dans Github vers une branch 
+`git push 41e jf_entete`
 
 ---
 ## Merge
 
 #### Merge la branch avec main : (Fast-Forward)
-    git merge jf_entete
+`git merge jf_entete`
+
 
