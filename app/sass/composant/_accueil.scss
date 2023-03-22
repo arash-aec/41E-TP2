@@ -1,0 +1,12 @@
+#accueil {
+    overflow: hidden;
+    h1 {
+        text-transform: uppercase;
+        position: relative;
+    }
+    img {
+        position: absolute;
+        object-fit: cover;
+    }
+
+}

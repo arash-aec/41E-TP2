@@ -1,0 +1,11 @@
+#accueil {
+  overflow: hidden;
+}
+#accueil h1 {
+  text-transform: uppercase;
+  position: relative;
+}
+#accueil img {
+  position: absolute;
+  object-fit: cover;
+}/*# sourceMappingURL=accueil.css.map */

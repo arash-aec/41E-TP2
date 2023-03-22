@@ -13,7 +13,7 @@ h1 {
   margin: 0;
 }
 
-section {
+section:not(.entete) {
   display: flex;
   flex-direction: column;
   justify-content: center;
