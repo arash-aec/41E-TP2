@@ -44,10 +44,15 @@
 #chkBurger:checked ~ .menu {
     transform: translateX(0);
 }
-
+.burger{
+    display: block;
+    @media screen and (min-width: 580px){
+        display: none;
+    }
+}
 .menu {
     position: absolute;
-    top: 2rem;
+    top: 3rem;
     transform: translateX(300px);
     transition: transform .25s ;
     display: flex;
@@ -66,11 +71,24 @@
 }
 
 
-
-
-
 .recherche label{
     display: flex;
     align-items: center;
     flex-wrap: nowrap;
+}
+
+
+table, th, td {
+    border: 1px solid rgb(246, 227, 227);
+}
+
+td, th{
+    color: white;
+}
+table{
+    padding: 30px;
+}
+
+iframe{
+    margin-top: 30px;
 }
