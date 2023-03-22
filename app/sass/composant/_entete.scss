@@ -30,6 +30,13 @@
 }
 
 /* ------------------------------------ menu */
+.burger {
+    display: block;
+    @media screen and (min-width : 580px) {
+        display: none;
+    }
+}
+
 #chkBurger {
     display: none;
 }
@@ -48,6 +55,7 @@
     align-items: end;
     @media screen and ( min-width : 580px ){
         position: static;
+        transform: translateX(0);
         flex-direction: row;
         align-items: center;    
     }
