@@ -1,0 +1,24 @@
+/* ------------------------------------ galerie */
+#galerie {
+    display: block;
+    padding: 4vh;
+    text-align: center;
+    min-height: 100vh;
+    h1 {
+        padding: 4vw;
+    }
+    .liste-item {
+        display: grid;
+        gap: 40px;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        overflow: hidden;
+        padding: 4vw 0;
+        .carte {
+            width: 300px;
+            height: 300px;
+            margin: auto;
+            position: relative;
+            overflow: hidden;
+        }
+    }
+}

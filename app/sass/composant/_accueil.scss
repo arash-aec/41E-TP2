@@ -3,7 +3,10 @@
     overflow: hidden;
     position: relative;
     background-image: url("img/accueil.webp");
-    background-position: 10% 80%;
+    background-position: 40% 80%;
+    @media screen and (min-width : 500px) {
+        background-position: 10% 80%;
+    }
     h1 {
         text-transform: uppercase;
         color: black;
