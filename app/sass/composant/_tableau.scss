@@ -1,11 +1,12 @@
 #tableau{
 
     table, th, td {
-        border: 1px solid rgb(190, 241, 189);
+        border: 1px solid rgb(100, 7, 7);
+        color: crimson;
     }
     
     td, th{
-        color: white;
+        color: rgb(59, 6, 6);
         text-align: center;
         
     }
@@ -21,4 +22,6 @@
 
     padding: 30px;
 }
+
+
 
